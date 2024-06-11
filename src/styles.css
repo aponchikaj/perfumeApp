@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: MontReg;
+    src: url('./assets/Fonts/Montserrat-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Fraunces';
+    src: url('./assets/Fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf');
+    font-weight: 700;
+}
